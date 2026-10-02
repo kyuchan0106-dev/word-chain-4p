@@ -1,0 +1,17 @@
+{
+  "name": "word-chain-4p",
+  "version": "1.0.0",
+  "private": true,
+  "description": "4-player Korean word chain game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
