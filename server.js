@@ -10,7 +10,7 @@ const wss = new WebSocket.Server({ server });
 
 const rooms = new Map();
 const PORT = process.env.PORT || 3000;
-const TURN_SECONDS = 15;
+const TURN_SECONDS = 5;
 
 function makeCode() {
   const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
